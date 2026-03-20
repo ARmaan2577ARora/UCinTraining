@@ -1,0 +1,14 @@
+Equality: Quantity(1.0, FEET) == Quantity(12.0, INCHES) ? true
+Conversion: Quantity(1.0, FEET) to INCHES = Quantity(12.0, INCHES)
+Addition: Quantity(1.0, FEET) + Quantity(12.0, INCHES) = Quantity(2.0, FEET) (FEET)
+Equality: Quantity(1.0, KILOGRAM) == Quantity(1000.0, GRAM) ? true
+Conversion: Quantity(1.0, KILOGRAM) to GRAM = Quantity(1000.0, GRAM)
+Addition: Quantity(1.0, KILOGRAM) + Quantity(1000.0, GRAM) = Quantity(2.0, KILOGRAM) (KILOGRAM)
+
+--- Volume Demonstrations ---
+Equality: Quantity(1.0, LITRE) == Quantity(1000.0, MILLILITRE) ? true
+Equality: Quantity(1.0, LITRE) == Quantity(1.0, GALLON) ? false
+Conversion: Quantity(1.0, LITRE) to MILLILITRE = Quantity(1000.0, MILLILITRE)
+Conversion: Quantity(1.0, GALLON) to LITRE = Quantity(3.79, LITRE)
+Addition: Quantity(1.0, LITRE) + Quantity(1000.0, MILLILITRE) = Quantity(2.0, LITRE) (LITRE)
+Addition: Quantity(1.0, LITRE) + Quantity(1.0, GALLON) = Quantity(4785.41, MILLILITRE) (MILLILITRE)
