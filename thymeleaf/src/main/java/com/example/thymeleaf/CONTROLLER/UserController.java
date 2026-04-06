@@ -16,7 +16,7 @@ public class UserController {
   
   @GetMapping("/variable-expression")
   public String ve(Model model) {
-      User u=new User("Tanish", "Tanish2438.be22@chitkara.edu.in", "Student", "Male");
+      User u=new User("Armaan", "Armaan2577.be22@chitkara.edu.in", "Student", "Male");
       model.addAttribute("user",u);
       return "variable-expression";
 
@@ -27,7 +27,7 @@ public class UserController {
 
    @GetMapping("/selection-expression")
   public String se(Model model) {
-      User u=new User("Tanish", "Tanish2438.be22@chitkara.edu.in", "Student", "Male");
+      User u=new User("Armaan", "Armaan2577.be22@chitkara.edu.in", "Student", "Male");
       model.addAttribute("user",u);
       return "selection-expression";
 
@@ -67,7 +67,7 @@ public class UserController {
     @GetMapping("/if-unless")
   public String iu(Model m) {
       User u=new User("Admin","Admin@gmail.com","Admin","Male");
-       User u1=new User("Tanish","Admin@gmail.com","Student","Male");
+       User u1=new User("Armaan","Admin@gmail.com","Student","Male");
       List<User> li=new ArrayList<>();
       li.add(u);
       li.add(u1);
