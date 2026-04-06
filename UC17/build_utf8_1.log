@@ -1,0 +1,600 @@
+﻿mvn.cmd : WARNING: A 
+terminally deprecated 
+method in sun.misc.Unsafe 
+has been called
+At line:1 char:1
++ & (Get-ChildItem -Path 
+"C:\Program Files" 
+-Filter "mvn.cmd" 
+-Recurse  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (W  
+  ARNING: A term...has    
+ been called:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+WARNING: sun.misc.Unsafe::
+staticFieldBase has been 
+called by com.google.injec
+t.internal.aop.HiddenClass
+Definer (file:/C:/Program%
+20Files/JetBrains/IntelliJ
+%20IDEA%202025.3.1/plugins
+/maven/lib/maven3/lib/guic
+e-5.1.0-classes.jar)
+WARNING: Please consider 
+reporting this to the 
+maintainers of class com.g
+oogle.inject.internal.aop.
+HiddenClassDefiner
+WARNING: sun.misc.Unsafe::
+staticFieldBase will be 
+removed in a future 
+release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------< com.app.quantitymeasurement:quantity-measurement-app >--------
+[INFO] Building quantity-measurement-app 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ quantity-measurement-app ---
+[INFO] Deleting D:\UCinTraining\UC16\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ quantity-measurement-app ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ quantity-measurement-app ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 29 source files with javac [debug release 17] to target\classes
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[4,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[5,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[7,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[8,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[9,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[10,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[4,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[7,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[8,10] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[9,10] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[10,10] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[91,24] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[126,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[143,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[160,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[211,13] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[16,24] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[32,24] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[42,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[47,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[58,17] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[82,13] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[4,11] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[18,6] cannot find symbol
+  symbol:   class Before
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[28,6] cannot find symbol
+  symbol:   class After
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[33,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[54,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[10,6] cannot find symbol
+  symbol:   class BeforeClass
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[16,6] cannot find symbol
+  symbol:   class Before
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[22,6] cannot find symbol
+  symbol:   class After
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[27,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[35,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[44,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[59,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[69,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[75,6] cannot find symbol
+  symbol:   class Test
+  location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[33,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.app.quantitymeasurement.model.QuantityMeasurementDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[34,34] cannot find symbol
+  symbol:   method getThisValue()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[35,33] cannot find symbol
+  symbol:   method getThisUnit()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[36,44] cannot find symbol
+  symbol:   method getThisMeasurementType()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[37,34] cannot find symbol
+  symbol:   method getThatValue()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[38,33] cannot find symbol
+  symbol:   method getThatUnit()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[39,44] cannot find symbol
+  symbol:   method getThatMeasurementType()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[40,34] cannot find symbol
+  symbol:   method getOperation()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[41,37] cannot find symbol
+  symbol:   method getResultString()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[42,36] cannot find symbol
+  symbol:   method getResultValue()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[43,35] cannot find symbol
+  symbol:   method getResultUnit()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[44,46] cannot find symbol
+  symbol:   method getResultMeasurementType()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[45,37] cannot find symbol
+  symbol:   method getErrorMessage()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[46,30] cannot find symbol
+  symbol:   method isError()
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[52,15] cannot find symbol
+  symbol:   method setThisValue(java.lang.Double)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[53,15] cannot find symbol
+  symbol:   method setThisUnit(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[54,15] cannot find symbol
+  symbol:   method setThisMeasurementType(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[55,15] cannot find symbol
+  symbol:   method setThatValue(java.lang.Double)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[56,15] cannot find symbol
+  symbol:   method setThatUnit(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[57,15] cannot find symbol
+  symbol:   method setThatMeasurementType(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[58,15] cannot find symbol
+  symbol:   method setOperation(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[59,15] cannot find symbol
+  symbol:   method setResultString(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[60,15] cannot find symbol
+  symbol:   method setResultValue(java.lang.Double)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[61,15] cannot find symbol
+  symbol:   method setResultUnit(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[62,15] cannot find symbol
+  symbol:   method setResultMeasurementType(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[63,15] cannot find symbol
+  symbol:   method setErrorMessage(java.lang.String)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[64,15] cannot find symbol
+  symbol:   method setError(boolean)
+  location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,30] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,58] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,30] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,59] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[39,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[41,14] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[42,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[45,14] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[51,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,30] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,58] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,30] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,59] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[59,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[60,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[62,14] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[64,14] cannot find symbol
+  symbol:   class QuantityMeasurementEntity
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[70,9] cannot find symbol
+  symbol:   variable Assert
+  location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[32,86] incompatible types: com.app.quantitymeasurement.repository.IQuantityMeasurementRepository cannot be converted to com.app.quantitymeasurement.repository.QuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,37] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,65] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,9] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,37] cannot find symbol
+  symbol:   class QuantityDTO
+  location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,66] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[31,74] cannot find symbol
+  symbol:   method getFirstQuantity()
+  location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[31,100] cannot find symbol
+  symbol:   method getSecondQuantity()
+  location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[37,74] cannot find symbol
+  symbol:   method getFirstQuantity()
+  location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[37,100] cannot find symbol
+  symbol:   method getTargetUnit()
+  location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.381 s
+[INFO] Finished at: 2026-04-06T19:45:54+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project quantity-measurement-app: Compilation failure: Compilation failure: 
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[4,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[5,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[7,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[8,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[9,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[10,17] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[4,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[7,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[8,10] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[9,10] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/IQuantityMeasurementRepository.java:[10,10] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: interface com.app.quantitymeasurement.repository.IQuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[91,24] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[126,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[143,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[160,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepository.java:[211,13] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[16,24] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[32,24] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[42,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[47,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementCacheRepository.java:[58,17] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementCacheRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[3,42] package com.app.quantitymeasurement.entity does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[82,13] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[4,11] package org.junit does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[18,6] cannot find symbol
+[ERROR]   symbol:   class Before
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[28,6] cannot find symbol
+[ERROR]   symbol:   class After
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[33,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[54,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[10,6] cannot find symbol
+[ERROR]   symbol:   class BeforeClass
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[16,6] cannot find symbol
+[ERROR]   symbol:   class Before
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[22,6] cannot find symbol
+[ERROR]   symbol:   class After
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[27,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[35,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[44,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[59,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[69,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementDatabaseRepositoryTest.java:[75,6] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.app.quantitymeasurement.repository.QuantityMeasurementDatabaseRepositoryTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[33,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.app.quantitymeasurement.model.QuantityMeasurementDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[34,34] cannot find symbol
+[ERROR]   symbol:   method getThisValue()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[35,33] cannot find symbol
+[ERROR]   symbol:   method getThisUnit()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[36,44] cannot find symbol
+[ERROR]   symbol:   method getThisMeasurementType()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[37,34] cannot find symbol
+[ERROR]   symbol:   method getThatValue()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[38,33] cannot find symbol
+[ERROR]   symbol:   method getThatUnit()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[39,44] cannot find symbol
+[ERROR]   symbol:   method getThatMeasurementType()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[40,34] cannot find symbol
+[ERROR]   symbol:   method getOperation()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[41,37] cannot find symbol
+[ERROR]   symbol:   method getResultString()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[42,36] cannot find symbol
+[ERROR]   symbol:   method getResultValue()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[43,35] cannot find symbol
+[ERROR]   symbol:   method getResultUnit()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[44,46] cannot find symbol
+[ERROR]   symbol:   method getResultMeasurementType()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[45,37] cannot find symbol
+[ERROR]   symbol:   method getErrorMessage()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[46,30] cannot find symbol
+[ERROR]   symbol:   method isError()
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[52,15] cannot find symbol
+[ERROR]   symbol:   method setThisValue(java.lang.Double)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[53,15] cannot find symbol
+[ERROR]   symbol:   method setThisUnit(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[54,15] cannot find symbol
+[ERROR]   symbol:   method setThisMeasurementType(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[55,15] cannot find symbol
+[ERROR]   symbol:   method setThatValue(java.lang.Double)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[56,15] cannot find symbol
+[ERROR]   symbol:   method setThatUnit(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[57,15] cannot find symbol
+[ERROR]   symbol:   method setThatMeasurementType(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[58,15] cannot find symbol
+[ERROR]   symbol:   method setOperation(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[59,15] cannot find symbol
+[ERROR]   symbol:   method setResultString(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[60,15] cannot find symbol
+[ERROR]   symbol:   method setResultValue(java.lang.Double)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[61,15] cannot find symbol
+[ERROR]   symbol:   method setResultUnit(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[62,15] cannot find symbol
+[ERROR]   symbol:   method setResultMeasurementType(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[63,15] cannot find symbol
+[ERROR]   symbol:   method setErrorMessage(java.lang.String)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/model/QuantityMeasurementDTO.java:[64,15] cannot find symbol
+[ERROR]   symbol:   method setError(boolean)
+[ERROR]   location: variable entity of type com.app.quantitymeasurement.model.QuantityMeasurementEntity
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,30] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[35,58] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,30] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[36,59] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[39,9] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[41,14] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[42,9] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[45,14] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[51,9] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,30] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[56,58] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,30] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[57,59] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[59,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[60,9] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[62,14] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[64,14] cannot find symbol
+[ERROR]   symbol:   class QuantityMeasurementEntity
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementIntegrationTest.java:[70,9] cannot find symbol
+[ERROR]   symbol:   variable Assert
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementIntegrationTest
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[32,86] incompatible types: com.app.quantitymeasurement.repository.IQuantityMeasurementRepository cannot be converted to com.app.quantitymeasurement.repository.QuantityMeasurementRepository
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,37] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[58,65] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,9] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,37] cannot find symbol
+[ERROR]   symbol:   class QuantityDTO
+[ERROR]   location: class com.app.quantitymeasurement.QuantityMeasurementApp
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/dump/QuantityMeasurementApp.java:[59,66] package QuantityDTO does not exist
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[31,74] cannot find symbol
+[ERROR]   symbol:   method getFirstQuantity()
+[ERROR]   location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[31,100] cannot find symbol
+[ERROR]   symbol:   method getSecondQuantity()
+[ERROR]   location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[37,74] cannot find symbol
+[ERROR]   symbol:   method getFirstQuantity()
+[ERROR]   location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] /D:/UCinTraining/UC16/src/main/java/com/app/quantitymeasurement/controller/QuantityMeasurementController.java:[37,100] cannot find symbol
+[ERROR]   symbol:   method getTargetUnit()
+[ERROR]   location: variable input of type com.app.quantitymeasurement.model.QuantityInputDTO
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
